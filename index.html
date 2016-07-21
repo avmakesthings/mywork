@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="description" content="Portfolio website for Anastasia Victor - AVmakesthings">
+	<!-- Open Graph -->
+	<meta property="og:title" content="AVmakesthings">
+	<meta property="og:url" content="//anastasia.io">
+	<meta property="og:description" content="Hello world! I'm a UI/UX designer and this is my work. Check it out...">
+	<meta property="og:image" content="//anastasia.io/images/og-img.jpg">
+	<meta property="og:type" content="website">
+
+	<title>AV-Portfolio</title>
+	
+	<!-- Favicon -->	
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	
+	<!-- Google Fonts -->
+	<link href='//fonts.googleapis.com/css?family=Lora:400,400italic,700%7CWork+Sans:200,400,300,500' rel='stylesheet' type='text/css'>
+	<!-- Main styles -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="portfolio-page fltrs-fx-fade fltrs-scale" data-page="portfolio">
+	<!-- Preloader -->
+	<div id="preloader">
+		<span class="preloader-ani"></span>
+	</div>
+
+	<div id="wrapper">
+		<!-- Head, logo & navigation -->
+		<header id="header" class="container-fluid">
+			<div class="container">
+				<nav class="navbar">
+					<div class="navbar-header">
+						<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"><span></span></button>
+						<!-- Logo -->
+						<div class="logo">
+							<!-- When you will add your own logo, make sure to add your logo´s width and height sizes -->
+							<!-- Adding retina/HDPi support is so easy as adding a double sized image within the srcset attribute with the '2x' descriptor. -->
+							<!-- The src attribute will display the regular size logo -->
+							<a href="index.html"><img srcset="images/logo@2x.png 2x" src="images/logo.png" width="55" height="45" alt="AVmakesthings"></a>
+						</div>
+					</div>
+					<!-- Main navigation -->
+					<div class="collapse navbar-collapse" id="navbar">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="index.html">Work</a>
+<!-- 								<ul class="dropdown-menu" role="menu">
+									<li><a href="index.html" >UI|UX</a></li>
+									<li><a href="index-col-03.html" >R &#38; D</a></li>
+									<li><a href="index-col-04.html">Graphics</a></li>
+								</ul> -->
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="#footer">Contact</a>
+							</li>
+							<li>
+								<ul class="list-inline social-networks text-right">
+									<li><a href="https://twitter.com/avmakesthings"><i class="icon-twitter"></i></a></li>
+									<li><a href="https://www.facebook.com/anastasia.victor"><i class="icon-facebook"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/anastasiavictor"><i class="icon-linkedin"></i></a></li>
+									<li><a href="https://github.com/mewchew"><i class="icon-github"></i></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav> <!-- ./Main navigation -->
+			</div>
+		</header>
+
+		<!-- Main content -->
+		<div class="main-container">
+			<main id="main" class="portfolio-page">
+				<!-- Page head/intro title & subtitle -->
+				<div class="container heading-section">
+					<div class="intro big-heading parallax col-sm-12">
+						<h1>Hello World.</h1>
+						<p>My name is Anastasia Victor and<br class="nobr">
+							I am a UI/UX designer.</p>
+					</div>
+				</div>
+				<!-- ./Page head/intro title & subtitle -->
+
+				<span id="prtfl-anchor" class="container go"></span>
+				<div class="container portfolio-grid">
+					<div class="row">
+						<div class="col-sm-6">
+							<a class="fltrs-trggr go" href="#prtfl-anchor">
+								<div class="filters-icon">
+						            <div class="icn-wrapper">
+						                <i class="eyecon"></i>
+						                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 16">
+						                    <circle cx="8" cy="8" r="6.215" transform="rotate(90 8 8)"></circle>
+						                </svg>
+						            </div>
+						        </div>
+							</a>
+						</div>
+						<ul class="filter-nav">
+							<li class="active"><a href="#prtfl-anchor" data-filter="all">All</a></li>
+							<li><a href="#prtfl-anchor" data-filter="uiux">UI|UX</a></li>
+							<li><a href="#prtfl-anchor" data-filter="rd">R&#38;D</a></li>
+							<li><a href="#prtfl-anchor" data-filter="graphics">Graphics</a></li>
+<!-- 							<li><a href="#" data-filter="web">Web</a></li> -->
+						</ul>
+					</div>
+					<!-- Set here the columns number: cols-2 is the default value -->
+					<div class="js-ajax-holder projects cols-4">
+						<div class="row portfolio-list js-ajax-container">
+							<div class="img-holder prjct-item" data-filter="uiux">
+								<a href="ratherbe.html">
+									<img src="images/project-img/ratherbe-thumb.jpg" alt="image description" class="img-responsive" width="695" height="695">
+									<span class="caption">RatherBe<span>— UI|UX</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="uiux">
+								<a href="adaptoakland.html">
+									<img src="images/project-img/adaptoakland-thumb.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Adapt Oakland<span>— UI|UX</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="uiux">
+								<a href="secretscoop.html">
+									<img src="images/project-img/secretscoop-thumb.jpg" alt="image description" class="img-responsive" width="695" height="695">
+									<span class="caption">Secret Scoop<span>— UI|UX</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="rd">
+								<a href="sfmoma.html">
+									<img src="images/project-img/sfmoma-thumb.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">SFMOMA Living Wall<span>— R&#38;D</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="uiux">
+								<a href="fitness.html">
+									<img src="images/project-img/fitness-thumb.jpg" alt="image description" class="img-responsive" width="695" height="464">
+                                    <span class="caption">Fit.ness<span>— UI|UX</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="uiux">
+								<a href="pplanter-web.html">
+									<img src="images/project-img/pplanter-web-thumb.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Pplanter-web<span>— UI|UX</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="rd">
+								<a href="pplanter.html">
+									<img src="images/project-img/pplanter-thumb.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Pplanter<span>— R&#38;D</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="rd">
+								<a href="brainwave.html">
+									<img src="images/project-img/brainwave-thumb.png" alt="image description" class="img-responsive" width="695" height="695">
+									<span class="caption">Brainwave<span>— R&#38;D</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="graphics">
+								<a href="posters.html">
+									<img src="images/project-img/posters-thumb.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Posters<span>— Graphics</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="rd">
+								<a href="chevron.html">
+									<img src="images/project-img/chevron-thumb.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Chevron<span>— R&#38;D</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="graphics">
+								<a href="skateboards.html">
+									<img src="images/project-img/skateboards-thumb.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Skateboards<span>— Graphics</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter="rd">
+								<a href="foldedplate.html">
+									<img src="images/project-img/foldedplate-thumb.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Folded Plate<span>— R&#38;D</span></span>
+								</a>
+							</div>	
+
+						</div>
+						<div class="row btn-block">
+							<div class="grid-pag clearfix">
+	          		            <div class="next-post btn">
+	             					 <a href="inc/2.html">2</a>
+	             				</div>
+	           					 <div class="prev-post btn"><a href="inc/2.html">1</a></div>
+	            	          </div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Go top button/arrow -->
+				<a href="#wrapper" class="btn-top go js-link"><i class="arrow right-arrow"></i></a>
+			</main>
+
+			<!-- Footer area -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div><a href="#"><b>Anastasia Victor</b><br>AKA AVmakesthings</a></div>
+						</div>
+						<div class="col-md-3">
+							<address>Lower Haight<br>San Francisco<br>California, USA</address>
+						</div>
+						<div class="col-md-3">
+							<a class="show tel" href="tel:5106925268">+(1) 510 692 5268</a>
+							<a href="mailto:av@anastasia.io">hello@anastasia.io</a>
+						</div>
+						<div class="col-md-3">
+							<ul class="list-inline social-networks text-right">
+								<li><a href="https://twitter.com/avmakesthings"><i class="icon-twitter"></i></a></li>
+								<li><a href="https://www.facebook.com/anastasia.victor"><i class="icon-facebook"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/anastasiavictor"><i class="icon-linkedin"></i></a></li>
+								<li><a href="https://github.com/mewchew"><i class="icon-github"></i></a></li>
+								<li><a href="https://www.behance.net/avmakesthings"><i class="icon-behance"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- ./Footer area -->
+		</div>
+		<!-- ./main-container -->
+
+		<!-- Overlays and menu hover titles -->
+		<div id="fltrs-overlay"></div>
+		<div id="overlay"></div>
+		<div id="page-title">
+			<span class="title"></span>
+			<span class="subtitle"></span>
+		</div>
+
+	</div>
+	<!-- #/wrapper -->
+
+	<!-- Main scripts -->
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script>
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		  var msViewportStyle = document.createElement("style")
+		  msViewportStyle.appendChild(
+			document.createTextNode(
+			  "@-ms-viewport{width:auto!important}"
+			)
+		  )
+		  document.getElementsByTagName("head")[0].appendChild(msViewportStyle)
+		}
+	</script>
+
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-77120449-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+</body>
+</html>
