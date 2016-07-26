@@ -547,7 +547,7 @@ the change from mobile to desktop menu */
 
 .nav.navbar-nav { padding-right: 0; }
 .navbar-nav > li { margin: 0 14% 0 0; }
-.navbar-nav > li:last-child { margin-right: -15px; }
+// .navbar-nav > li:last-child { margin-right: -15px; } <- Why did this rule exist? Terrible
 .navbar-nav > li > a {
 	padding: 0;
 	font-size: 16px;
