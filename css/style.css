@@ -546,8 +546,10 @@ the change from mobile to desktop menu */
 #header .navbar-nav > li { margin-bottom: 0 !important; }
 
 .nav.navbar-nav { padding-right: 0; }
-.navbar-nav > li { margin: 0 14% 0 0; }
+// .navbar-nav > li { margin: 0 14% 0 0; }
+.navbar-nav > li { margin: 0 0 0 16%; }
 // .navbar-nav > li:last-child { margin-right: -15px; } <- Why did this rule exist? Terrible
+
 // Share icons
 .navbar-nav > li > .list-inline.social-networks {
   padding-top: 15px;
