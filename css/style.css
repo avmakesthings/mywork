@@ -3780,6 +3780,8 @@ this improves this issue. TODO */
   /* helper class to remove line breaks */
   .nobr { display: none; }
 
+  /* Various AV mobile tweaks/fixes */
+
   /* Make captions visible */
   #wrapper .portfolio-list .prjct-item a .caption {
     visibility: visible;
@@ -3788,6 +3790,19 @@ this improves this issue. TODO */
     padding: 10px 20px 10px 20px;
     right: 0%;
     bottom: 0%;
+  }
+  /* Make carousel easier to use */
+  .carousel-indicators {
+    width: 80%;
+    left: 40%;
+    bottom: -60px;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+    width: 16px;
+    height: 16px;
+  }
+  .about-metadata {
+    display: none;
   }
 }
 
