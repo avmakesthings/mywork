@@ -547,7 +547,12 @@ the change from mobile to desktop menu */
 
 .nav.navbar-nav { padding-right: 0; }
 .navbar-nav > li { margin: 0 14% 0 0; }
-.navbar-nav > li:last-child { margin-right: -15px; }
+// .navbar-nav > li:last-child { margin-right: -15px; } <- Why did this rule exist? Terrible
+// Share icons
+.navbar-nav > li > .list-inline.social-networks {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .navbar-nav > li > a {
 	padding: 0;
 	font-size: 16px;
@@ -3774,6 +3779,31 @@ this improves this issue. TODO */
 	.newsletter .btn-submit { bottom: 45px; }
   /* helper class to remove line breaks */
   .nobr { display: none; }
+
+  /* Various AV mobile tweaks/fixes */
+
+  /* Make captions visible */
+  #wrapper .portfolio-list .prjct-item a .caption {
+    visibility: visible;
+    opacity: 0.75;
+    background: black;
+    padding: 10px 20px 10px 20px;
+    right: 0%;
+    bottom: 0%;
+  }
+  /* Make carousel easier to use */
+  .carousel-indicators {
+    width: 80%;
+    left: 40%;
+    bottom: -60px;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+    width: 16px;
+    height: 16px;
+  }
+  .about-metadata {
+    display: none;
+  }
 }
 
 /* Screens & Devices smaller than 415px (iPhone 6 basis)
