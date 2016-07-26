@@ -3774,6 +3774,16 @@ this improves this issue. TODO */
 	.newsletter .btn-submit { bottom: 45px; }
   /* helper class to remove line breaks */
   .nobr { display: none; }
+
+  /* Make captions visible */
+  #wrapper .portfolio-list .prjct-item a .caption {
+    visibility: visible;
+    opacity: 0.75;
+    background: black;
+    padding: 10px 20px 10px 20px;
+    right: 0%;
+    bottom: 0%;
+  }
 }
 
 /* Screens & Devices smaller than 415px (iPhone 6 basis)
